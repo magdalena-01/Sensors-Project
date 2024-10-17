@@ -1,0 +1,35 @@
+/* Add this to your CSS file */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.hover-zoom {
+    overflow: hidden;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.custom-paragraph {
+    color: #333;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1rem; 
+    padding: 0 10px;
+}
+
+#manage{ 
+    color: gray;
+}

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<SensorsProject.Models.Pump>
+
+@{
+    ViewData["Title"] = "Pumps";
+}
+
+<h1 class="text-center mb-4">Pumps</h1>
+
+<p class="text-center mb-4">
+    <a class="btn btn-primary" asp-action="Create">Create New Pump</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Pump Name</th>
+                <th>Pump Type</th>
+                <th>Time On</th>
+                <th>Time Off</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pump in Model)
+            {
+                <tr>
+                    <td>@pump.Id</td>
+                    <td>@pump.pumpName</td>
+                    <td>@pump.pumpType</td>
+                    <td>@pump.timeOn</td>
+                    <td>@pump.timeOff</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .btn-primary {
+        background-color: #0072ff;
+        border-color: #0072ff;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #005bb5;
+            border-color: #005bb5;
+        }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .table {
+        margin-top: 20px;
+    }
+
+    .table-bordered {
+        border: 1px solid #ddd;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table-dark {
+        background-color: #343a40;
+        color: white;
+    }
+</style>

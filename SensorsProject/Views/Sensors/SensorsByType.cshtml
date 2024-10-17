@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SensorsProject.Models.Sensor>
+
+@{
+    ViewData["Title"] = "Sensors by Type";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>
+
+<div class="sensor-list">
+    @foreach (var sensor in Model)
+    {
+        <div class="sensor-item">
+            <h6 class="sensor-name">@sensor.SensorName</h6>
+        </div>
+    }
+</div>
+
+<style>
+    .sensor-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sensor-item {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .sensor-name {
+        font-size: 16px;
+        margin: 0;
+    }
+</style>

@@ -1,0 +1,91 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<section class="h-100 gradient-form" style="background-color: #eee;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-10">
+                <div class="card rounded-3 text-black">
+                    <div class="row g-0">
+                        <!-- Left side with form -->
+                        <div class="col-lg-6">
+                            <div class="card-body p-md-5 mx-md-4">
+                                <div class="text-center">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                                         style="width: 185px;" alt="logo">
+                                    <h4 class="mt-1 mb-5 pb-1">Welcome to SmartControl</h4>
+                                </div>
+
+                                <form id="account" method="post">
+                                    <p>Please login to your account</p>
+
+                                    <!-- Validation Summary -->
+                                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                                    <!-- Email Input -->
+                                    <div class="form-floating mb-4">
+                                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Phone number or email address" />
+                                        <label asp-for="Input.Email">Username</label>
+                                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                    </div>
+
+                                    <!-- Password Input -->
+                                    <div class="form-floating mb-4">
+                                        <input asp-for="Input.Password" type="password" class="form-control" aria-required="true" placeholder="Password" />
+                                        <label asp-for="Input.Password">Password</label>
+                                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                    </div>
+
+                                    <!-- Remember Me -->
+                                   <!-- <div class="form-check mb-4">
+                                        <input class="form-check-input" asp-for="Input.RememberMe" />
+                                        <label class="form-check-label" asp-for="Input.RememberMe">Remember me</label>
+                                    </div> -->
+
+                                    <!-- Submit Button -->
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-outline-success btn-block fa-lg gradient-custom-2 mb-3">
+                                            Log in
+                                        </button>
+                                    </div>
+
+                                    <!-- Forgot Password and Create Account -->
+                                    <div class="text-center pt-1 mb-5 pb-1">
+                                        <a class="text-muted" asp-page="./ForgotPassword">Forgot password?</a>
+                                    </div>
+
+                                    <div class="d-flex align-items-center justify-content-center pb-4">
+                                        <p class="mb-0 me-2">Don't have an account?</p>
+                                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="btn btn-outline-danger">Create new</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Right side with information -->
+                        <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                            <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                                <h4 class="mb-4">We are more than just a company</h4>
+                                <p class="small mb-0 custom-paragraph">
+                                    The Real-Time Project Monitoring and Control application is designed to provide users with a comprehensive platform
+                                    for managing and monitoring project activities through a seamless integration of ASP.NET and Arduino hardware.
+                                    This application allows users to gain real-time insights into project performance, track progress, and control various hardware components remotely.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

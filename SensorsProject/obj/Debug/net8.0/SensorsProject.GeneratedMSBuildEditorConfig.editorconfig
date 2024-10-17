@@ -1,0 +1,191 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SensorsProject
+build_property.RootNamespace = SensorsProject
+build_property.ProjectDir = C:\Users\marko\Desktop\Projects\SensorsProject\SensorsProject\SensorsProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\marko\Desktop\Projects\SensorsProject\SensorsProject\SensorsProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/ECSensors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNTZW5zb3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/ECSensors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNTZW5zb3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/ECSensors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNTZW5zb3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/ECSensors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNTZW5zb3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/ECSensors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNTZW5zb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Home/OnOff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbk9mZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/PhSensors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhTZW5zb3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/PhSensors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhTZW5zb3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/PhSensors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhTZW5zb3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/PhSensors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhTZW5zb3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/PhSensors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhTZW5zb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Pumps/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVtcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Pumps/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVtcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Pumps/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVtcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Pumps/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVtcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Pumps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVtcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Sensors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc29yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Sensors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc29yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Sensors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc29yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Sensors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc29yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Sensors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc29yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Sensors/SensorsByType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc29yc1xTZW5zb3JzQnlUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/TempSensors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcFNlbnNvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/TempSensors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcFNlbnNvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/TempSensors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcFNlbnNvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/TempSensors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcFNlbnNvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/TempSensors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcFNlbnNvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marko/Desktop/Projects/SensorsProject/SensorsProject/SensorsProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u47vn09xfg

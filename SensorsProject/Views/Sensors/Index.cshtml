@@ -1,0 +1,180 @@
+﻿@model IEnumerable<SensorsProject.Models.Sensor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="card-container mb-5">
+        @foreach (var sensorType in new[] { "Temp", "Ph", "EC" })
+        {
+            <div class="card sensor-card" onclick="window.location.href='@Url.Action("ViewSensorsByType", new { type = sensorType })'">
+                <div class="card-body text-center">
+                    <i class="fas fa-thermometer-half fa-3x mb-3" style="color: @GetIconColor(sensorType);"></i>
+                    <h5 class="card-title">@sensorType Sensors</h5>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <table class="table table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Sensor Name</th>
+                        <th scope="col">Sensor Type</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var sensor in Model)
+                    {
+                        <tr>
+                            <td>@sensor.Id</td>
+                            <td>@sensor.SensorName</td>
+                            <td>@sensor.SensorType</td>
+                           
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: url('https://www.example.com/your-background-image.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .sensor-card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        overflow: hidden;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(8px);
+        color: #333;
+        transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    }
+
+        .sensor-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .sensor-card .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sensor-card .card-title {
+            font-size: 22px;
+            margin: 0;
+        }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .table-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .table-wrapper {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(8px);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+    }
+
+    .table {
+        margin: 0;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 255, 0, 0.2); /* Light green on hover */
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 255, 0, 0.1); /* Light green for striped rows */
+    }
+
+    .table-dark {
+        background-color: rgba(0, 128, 0, 0.6); /* Dark green background */
+        color: white;
+    }
+
+        .table-dark th {
+            color: white;
+        }
+
+    .btn-primary {
+        background-color: #0072ff;
+        border-color: #0072ff;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+        .btn-primary:hover {
+            background-color: #005bb5;
+            border-color: #005bb5;
+        }
+
+    .btn-danger {
+        background-color: #ff6347;
+        border-color: #ff6347;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+        .btn-danger:hover {
+            background-color: #e04a3f;
+            border-color: #e04a3f;
+        }
+</style>
+
+@section Scripts {
+    <script>
+        function editSensor(sensorId) {
+            // Add your edit logic here
+            alert('Edit sensor with ID: ' + sensorId);
+        }
+
+        function deleteSensor(sensorId) {
+            if (confirm('Are you sure you want to delete this sensor?')) {
+                // Add your delete logic here
+                alert('Deleted sensor with ID: ' + sensorId);
+            }
+        }
+    </script>
+}
+
+@functions {
+    private string GetIconColor(string sensorType)
+    {
+        return sensorType switch
+        {
+            "Temp" => "#ff6347", // Tomato
+            "Ph" => "#32cd32", // Lime Green
+            "EC" => "#1e90ff", // Dodger Blue
+            _ => "#ffffff", // Default to white
+        };
+    }
+}
